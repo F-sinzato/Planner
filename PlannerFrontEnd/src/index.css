@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  min-width: 0;
+};
+
+input {
+  color-scheme: dark;
+}
+
+.rdp-root {
+  --rdp-accent-color: indigo; /* Change the accent color to indigo. */
+  --rdp-accent-background-color: #c084fc; /* Change the accent background color. */
+  --rdp-range_middle-background-color: indigo;
+  --rdp-today-color: #a855f7;
+}
